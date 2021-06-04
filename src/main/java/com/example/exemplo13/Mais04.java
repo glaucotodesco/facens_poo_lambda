@@ -9,6 +9,7 @@ public class Mais04 {
 		
 		List<Integer> numeros = Arrays
 				.asList(-1,2,3,-4,-5,2,3,4);
+
 		int red1 =   numeros.
 			         stream().
 			         distinct().

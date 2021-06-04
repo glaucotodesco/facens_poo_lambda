@@ -10,7 +10,7 @@ public class Mais05 {
 				Arrays.asList(-1,2,3,-4);
 
 		int soma = numeros.
-			         stream().
+			       stream().
 		                    filter( n -> n > 0).
 		                    reduce(0,Integer::sum);
 				
